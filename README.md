@@ -16,6 +16,7 @@ The executable JAR (SmartXMLAnalyzer-1.0-SNAPSHOT.jar) from the "/dist" folder i
 out the results to the standard output.
 We can execute it with the arguments shown below and this is a complete example with three arguments:
 
+Sample 1
 ```
 $ java -jar ./dist/SmartXMLAnalyzer-1.0-SNAPSHOT.jar -s src/main/resources/samples/sample-0-origin.html -t src/main/resources/samples/sample-1-evil-gemini.html -i make-everything-ok-button
 ```
@@ -25,6 +26,7 @@ html > body > div > div > div > div > div > div > a[class="btn btn-success"]
 ```
 
 And the rest of the examples:
+
 Sample 2
 ```
 $ java -jar ./dist/SmartXMLAnalyzer-1.0-SNAPSHOT.jar -s src/main/resources/samples/sample-0-origin.html -t src/main/resources/samples/sample-2-container-and-clone.html -i make-everything-ok-button
