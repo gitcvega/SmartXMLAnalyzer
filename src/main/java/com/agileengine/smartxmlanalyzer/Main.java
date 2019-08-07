@@ -34,9 +34,6 @@ public class Main
             System.exit(-1);
         }
 
-//        System.out.println("Source: " + source.getAbsolutePath());
-//        System.out.println("Target: " + target.getAbsolutePath());
-//        System.out.println("SourceElementId: " + sourceElementId);
     }
 
     public void run()  {
@@ -65,14 +62,10 @@ public class Main
             System.exit(-1);
         }
         System.out.println(elementAttributes.buildElementsPath());
-//        String buildElementsPath = elementAttributes.buildElementsPath();
-//        Optional<Elements> elementsByQuery = XMLElementSeeker.findElementsByQuery(targetHtml, buildElementsPath);
-//        elementsByQuery.ifPresent(elements -> {
-//            System.out.println(elements.text());
-//        });
+
     }
 
-    public static void main( String[] args ) throws Exception {
+    public static void main( String[] args ) {
         Main main = new Main();
         main.setArgs(args);
         main.run();
