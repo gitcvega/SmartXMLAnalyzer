@@ -16,6 +16,13 @@ The executable JAR (SmartXMLAnalyzer-1.0-SNAPSHOT.jar) from the "/dist" folder i
 out the results to the standard output.
 We can execute it with the arguments shown below and this is a complete example with three arguments:
 
+Arguments
+```
+-s Source XML file (Original).
+-t Target XML file.
+-i Element id from the source XML file.
+```
+
 Sample 1
 ```
 $ java -jar ./dist/SmartXMLAnalyzer-1.0-SNAPSHOT.jar -s src/main/resources/samples/sample-0-origin.html -t src/main/resources/samples/sample-1-evil-gemini.html -i make-everything-ok-button
